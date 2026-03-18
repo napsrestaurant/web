@@ -208,7 +208,7 @@ const menu = [
 	name: "Kare-kare",
 	description: "",
 	price: 480,
-	image: "",
+	image: "./images/products/karekare.png",
 	category: "Naps Specialties"
 },
 {
