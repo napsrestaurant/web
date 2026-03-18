@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Naps Restaurant</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+	body{
+	font-family:'Poppins', sans-serif;
+	scroll-behavior:smooth;
+	}
+
+	/* Navbar */
+
+	.navbar{
+	background:#111;
+	}
+
+	nav .nav-link{
+	color:white !important;
+	font-weight:500;
+	}
+
+	/* Hero */
+
+	.hero{
+	height:100vh;
+	background:url("./images/hero.png") center/cover no-repeat;
+	position:relative;
+	color:white;
+	}
+
+	.hero-overlay{
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		background:rgba(0,0,0,0.7);
+
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		text-align:center;
+	}
+
+	#heading{
+		margin-top: -100px;
+	}
+
+	/* Section spacing */
+
+	section{
+	min-height:100vh;
+	padding:100px 0;
+	display:flex;
+	align-items:center;
+	}
+	/* Best sellers */
+
+	.card img{
+	height:220px;
+	object-fit:cover;
+	}
+
+	/* Footer */
+
+	footer{
+	background:#111;
+	color:white;
+	padding:30px;
+	text-align:center;
+	}
+
+	.floating-buttons{
+	position:fixed;
+	bottom:25px;
+	right:25px;
+	display:flex;
+	flex-direction:column;
+	gap:12px;
+	z-index:999;
+	}
+
+	/* Button Design */
+
+	.floating-call{
+	display:flex;
+	align-items:center;
+	gap:12px;
+	background:#ffc107;
+	color:#111;
+	padding:12px 18px;
+	border-radius:50px;
+	font-weight:600;
+	font-size:14px;
+	text-decoration:none;
+	box-shadow:0 8px 20px rgba(0,0,0,0.45);
+	transition:all .25s ease;
+	}
+
+	/* Icon circle */
+
+	.floating-call i{
+	background:#111;
+	color:#ffc107;
+	width:34px;
+	height:34px;
+	border-radius:50%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-size:14px;
+	}
+
+	/* Hover */
+
+	.floating-call:hover{
+	transform:translateY(-3px);
+	background:#ffca2c;
+	box-shadow:0 12px 25px rgba(0,0,0,0.5);
+	color:#111;
+	}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<div class="container">
+
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+
+	<ul class="navbar-nav align-items-center">
+
+	<li class="nav-item mx-3">
+		<a class="nav-link" href="#about">About</a>
+	</li>
+
+	<li class="nav-item mx-3">
+	<a class="nav-link" href="#best">Best Sellers</a>
+	</li>
+
+	<li class="nav-item mx-4">
+	<a class="navbar-brand fw-bold text-warning" href="#home">
+	Naps Restaurant
+	</a>
+	</li>
+
+	<li class="nav-item mx-3">
+	<a class="nav-link" href="menu.html">Menu</a>
+	</li>
+
+	<li class="nav-item mx-3">
+	<a class="nav-link" href="#contact">Contact</a>
+	</li>
+
+	</ul>
+
+	</div>
+
+	</div>
+</nav>
+
+<div style="position:fixed; bottom:25px; right:25px; display:flex; flex-direction:column; gap:10px; z-index:999;">
+
+	<div class="floating-buttons">
+
+	<a href="tel:09453778649" class="floating-call">
+	<i class="fa-solid fa-phone"></i>
+	Mamburao Branch
+	</a>
+
+	<a href="tel:09693136033" class="floating-call">
+	<i class="fa-solid fa-phone"></i>
+	Abra Branch
+	</a>
+
+	</div>
+
+</div>
+
+<!-- HERO -->
+
+<section id="home" class="hero">
+
+	<div class="hero-overlay">
+
+		<div class="container">
+
+		<h1 class="display-1 fw-bold" id="heading">#NapSarap</h1>
+
+		<p class="lead display-6">Every Bite Speaks Excellence</p>
+
+		<div class="d-flex gap-3 mt-3 flex-wrap justify-content-center">
+
+		<a href="menu.html" class="btn btn-warning btn-lg">
+		<i class="fa-solid fa-utensils"></i> View Menu
+		</a>
+
+		<a href="tel:09453778649" class="btn btn-outline-light btn-lg">
+		<i class="fa-solid fa-phone"></i> Mamburao Branch
+		</a>
+
+		<a href="tel:09693136033" class="btn btn-outline-light btn-lg">
+		<i class="fa-solid fa-phone"></i> Abra Branch
+		</a>
+
+		</div>
+
+		</div>
+
+	</div>
+
+</section>
+
+<!-- BEST SELLERS -->
+
+<section id="best">
+
+<div class="container">
+
+	<h2 class="text-center mb-5 fw-bold">Best Sellers</h2>
+
+	<div class="row g-4">
+
+	<div class="col-md-4">
+		<div class="card shadow">
+
+		<img src="./images/products/chicken.png" class="h-100 img-fluid">
+
+		<div class="card-body">
+
+			<h5>Classic Chicken</h5>
+			<p>Juicy whole chicken processed and fried to perfection with crispy and rich savory flavor. Served with special dipping sauces for the perfect bite every time</p>
+
+		</div>
+		</div>
+	</div>
+
+
+
+
+
+	<div class="col-md-4">
+		<div class="card shadow">
+
+		<img src="./images/products/crispypata.png" class="h-100 img-fluid">
+
+		<div class="card-body">
+
+		<h5>Crispy Pata</h5>
+		<p>Deep-fried pork knuckle with irresistibly crispy skin and tender, flavorful meat inside. Best enjoyed with our signature dipping sauces for a bold and satisfying taste.</p>
+
+		</div>
+		</div>
+	</div>
+
+
+	<div class="col-md-4">
+		<div class="card shadow">
+
+		<img src="./images/products/bulalo.png" class="h-100 img-fluid">
+
+		<div class="card-body">
+
+		<h5>Bulalo</h5>
+		<p>A hearty Filipino beef soup made with tender beef shank, rich flavorful broth, and fresh vegetables. Perfect for a warm and satisfying meal.</p>
+
+		</div>
+		</div>
+	</div>
+	</div>
+
+</div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about" class="bg-light">
+
+<div class="container">
+
+<div class="row align-items-center">
+
+	<div class="col-md-6">
+
+		<h2 class="fw-bold">About Us</h2>
+
+		<p>
+		Naps Sarap serves authentic Filipino comfort food made with
+		fresh ingredients and traditional recipes.
+		Our mission is to bring people together through delicious meals.
+		</p>
+
+		<p>
+		Whether you're craving classic favorites or discovering
+		Filipino cuisine for the first time, we have something for you.
+		</p>
+
+	</div>
+
+	<div class="col-md-6">
+
+		<img class="img-fluid rounded shadow"
+		src="./images/about.png">
+
+	</div>
+
+	</div>
+
+</div>
+
+</section>
+
+
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="bg-light">
+
+	<div class="container">
+
+	<h2 class="text-center mb-5 fw-bold">Contact Us</h2>
+
+	<div class="row">
+
+	<div class="col-md-6">
+
+	<p>
+	<i class="fa-solid fa-location-dot"></i>
+	Capitol Drive, Barangay Payompon, Mamburao, Philippines, 5106
+	</p>
+
+	<p>
+		 <i class="fa-solid fa-phone"></i> <a href="tel:09453778649">0945 377 8649</a>
+	
+	</p>
+
+	<p>
+	<i class="fa-brands fa-facebook"></i>
+	<a href="https://facebook.com/NapsMamburao" target="_blank">
+	Mamburao Branch Facebook
+	</a>
+	</p>
+
+	<br>
+
+	<p>
+	<i class="fa-solid fa-location-dot"></i>
+	Balao, Abra de Ilog, Philippines, 5108
+	</p>
+
+	<p>
+		
+		<i class="fa-solid fa-phone"></i> 
+		<a href="tel:09693136033">
+			0969 313 6033
+		</a>
+	</p>
+
+	<p>
+	<i class="fa-brands fa-facebook"></i>
+	<a href="https://facebook.com/napsabrabranch" target="_blank">
+	Abra Branch Facebook
+	</a>
+	</p>
+
+	<br>
+
+	<p>
+	<i class="fa-solid fa-envelope"></i>
+	napsrestaurant.management@gmail.com
+	</p>
+
+	</div>
+
+	<div class="col-md-6">
+
+		<form action="https://api.web3forms.com/submit" method="POST">
+
+		<input type="hidden" name="access_key" value="18b9eb2c-149b-43a0-b35f-6e890b63607e">
+
+		<input type="hidden" name="subject" value="New Message from Naps Restaurant Website">
+
+		<input type="hidden" name="from_name" value="Naps Restaurant Website">
+
+		<input type="checkbox" name="botcheck" style="display:none">
+
+		<input class="form-control mb-3" type="text" name="name" placeholder="Your Full Name" required>
+
+		<input class="form-control mb-3" type="email" name="email" placeholder="Your Email Address" required>
+
+		<textarea class="form-control mb-3" name="message" rows="4" placeholder="Message" required></textarea>
+
+		<button type="submit" class="btn btn-dark">Send Message</button>
+
+		</form>
+	</div>
+
+	</div>
+
+	</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>© 2026 Naps Restaurant</p>
+
+</footer>
+
+
+<!-- Bootstrap JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

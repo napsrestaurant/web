@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Naps Sarap Restaurant Menu</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+	body{
+	background:#121212;
+	color:#f1f1f1;
+	font-family:system-ui;
+	}
+
+	nav .nav-link{
+	color:white !important;
+	font-weight:500;
+	}
+
+	/* Title */
+
+	h1{
+	font-weight:700;
+	}
+
+	/* Category titles */
+
+	.menu-category h2{
+	color:#ffc107;
+	border-color:#444 !important;
+	}
+
+	/* Cards */
+
+	.card{
+	background:#1e1e1e;
+	color:#f1f1f1;
+	border:none;
+	}
+
+	/* Card text */
+
+	.card-text{
+	color:#cccccc;
+	}
+
+	/* Footer price area */
+
+	.card-footer{
+	background:#1e1e1e;
+	border-top:1px solid #333;
+	}
+
+	/* Images */
+
+	.card-img-top{
+	height:220px;
+	object-fit:cover;
+	background:#000;
+	}
+
+
+/* Floating Call Button */
+
+/* Floating Call Buttons Container */
+
+.floating-buttons{
+position:fixed;
+bottom:25px;
+right:25px;
+display:flex;
+flex-direction:column;
+gap:12px;
+z-index:999;
+}
+
+/* Button Design */
+
+.floating-call{
+display:flex;
+align-items:center;
+gap:12px;
+background:#ffc107;
+color:#111;
+padding:12px 18px;
+border-radius:50px;
+font-weight:600;
+font-size:14px;
+text-decoration:none;
+box-shadow:0 8px 20px rgba(0,0,0,0.45);
+transition:all .25s ease;
+}
+
+/* Icon circle */
+
+.floating-call i{
+background:#111;
+color:#ffc107;
+width:34px;
+height:34px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:14px;
+}
+
+/* Hover */
+
+.floating-call:hover{
+transform:translateY(-3px);
+background:#ffca2c;
+box-shadow:0 12px 25px rgba(0,0,0,0.5);
+color:#111;
+}
+</style>
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container">
+
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+
+		<ul class="navbar-nav align-items-center">
+
+		<li class="nav-item mx-3">
+		<a class="nav-link" href="./index.html#about">About</a>
+		</li>
+
+		<li class="nav-item mx-3">
+		<a class="nav-link" href="./index.html#best">Best Sellers</a>
+		</li>
+
+		<li class="nav-item mx-4">
+		<a class="navbar-brand fw-bold text-warning" href="./index.html#home">
+		Naps Restaurant
+		</a>
+		</li>
+
+		<li class="nav-item mx-3">
+		<a class="nav-link" href="./menu.html">Menu</a>
+		</li>
+
+		<li class="nav-item mx-3">
+		<a class="nav-link" href="./index.html#contact">Contact</a>
+		</li>
+
+		</ul>
+
+		</div>
+
+		</div>
+	</nav>
+
+	<div style="position:fixed; bottom:25px; right:25px; display:flex; flex-direction:column; gap:10px; z-index:999;">
+
+		<div class="floating-buttons">
+
+		<a href="tel:09453778649" class="floating-call">
+		<i class="fa-solid fa-phone"></i>
+		Mamburao Branch
+		</a>
+
+		<a href="tel:09693136033" class="floating-call">
+		<i class="fa-solid fa-phone"></i>
+		Abra Branch
+		</a>
+
+		</div>
+
+	</div>
+
+
+<div class="container py-5">
+
+<h1 class="text-center mb-5">Naps Sarap Menu</h1>
+
+<div class="row" id="menu-container"></div>
+
+</div>
+
+<script src="js/menuData.js"></script>
+<script src="js/menuRender.js"></script>
+
+</body>
+</html>
