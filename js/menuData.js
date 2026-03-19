@@ -501,7 +501,7 @@ const menu = [
 	name: "Pineapple Juice",
 	description: "",
 	price: 85,
-	image: "",
+	image: "./images/products/pineapplejuice.png",
 	category: "Beverages"
 },
 {
