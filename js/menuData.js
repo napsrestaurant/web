@@ -469,7 +469,7 @@ const menu = [
 	name: "Bottled Water",
 	description: "",
 	price: 40,
-	image: "",
+	image: "https://thegridfoodmarket.com/cdn/shop/products/Water_8cd439b9-8e5b-4551-9b18-1eb4f712963c.jpg?v=1637819273",
 	category: "Beverages"
 },
 {
@@ -490,10 +490,10 @@ const menu = [
 },
 {
 	id: 59,
-	name: "Ice Tea (Pitcher)",
+	name: "Iced Tea (Pitcher)",
 	description: "",
 	price: 130,
-	image: "",
+	image: "./images/products/icedteapitcher.png",
 	category: "Beverages"
 },
 {
