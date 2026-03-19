@@ -549,7 +549,7 @@ const menu = [
 	name: "Cucumber Lemon Juice (Pitcher)",
 	description: "",
 	price: 150,
-	image: "",
+	image: "./images/products/cucumberlemonjuicepitcher.png",
 	category: "Beverages"
 },
 
