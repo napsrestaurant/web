@@ -31,7 +31,7 @@ const menu = [
 	name: "Nachos Special",
 	description: "",
 	price: 190,
-	image: "",
+	image: "./images/products/nachosspecial.png",
 	category: "Soups & Appetizers"
 },
 {
@@ -39,7 +39,7 @@ const menu = [
 	name: "French Fries",
 	description: "",
 	price: 120,
-	image: "./images/products/fries.png",
+	image: "./images/products/frenchfries.png",
 	category: "Soups & Appetizers"
 },
 {
@@ -477,7 +477,7 @@ const menu = [
 	name: "Softdrinks in Can",
 	description: "",
 	price: 80,
-	image: "",
+	image: "https://www.chickeysinasal.com/cdn/shop/files/Soda_1024x1024.webp?v=1742979860",
 	category: "Beverages"
 },
 {
@@ -485,7 +485,7 @@ const menu = [
 	name: "Softdrinks 1.5L",
 	description: "",
 	price: 160,
-	image: "",
+	image: "./images/products/softdrinksliter.png",
 	category: "Beverages"
 },
 {
@@ -576,7 +576,7 @@ const menu = [
 	name: "Regular Coffee",
 	description: "",
 	price: 60,
-	image: "",
+	image: "./images/products/regularcoffee.png",
 	category: "Coffees"
 },
 {
@@ -1142,7 +1142,7 @@ const menu = [
 	name: "Turon De Manila",
 	description: "",
 	price: 155,
-	image: "",
+	image: "./images/products/turondemanila.png",
 	category: "Naps Innovation - Desserts"
 },
 {
@@ -1200,7 +1200,7 @@ const menu = [
 	name: "Hotsilog",
 	description: "",
 	price: 170,
-	image: "",
+	image: "./images/products/hotsilog.png",
 	category: "Naps Breakfast"
 },
 {
