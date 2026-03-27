@@ -7,7 +7,7 @@ const menu = [
 	name: "Cream of Mushroom",
 	description: "",
 	price: 80,
-	image: "",
+	image: "./images/products/mushroomsoup.png",
 	category: "Soups & Appetizers"
 },
 {
@@ -15,7 +15,7 @@ const menu = [
 	name: "Crab and Corn",
 	description: "",
 	price: 80,
-	image: "",
+	image: "./images/products/crabandcorn.png",
 	category: "Soups & Appetizers"
 },
 {
@@ -23,7 +23,7 @@ const menu = [
 	name: "Pumpkin Soup",
 	description: "",
 	price: 80,
-	image: "",
+	image: "./images/products/pumpkinsoup.png",
 	category: "Soups & Appetizers"
 },
 {
@@ -173,7 +173,7 @@ const menu = [
 	name: "Sinigang na Isda",
 	description: "",
 	price: 380,
-	image: "",
+	image: "./images/products/sinigangnaisda.png",
 	category: "Seafoods & Sisigs"
 },
 
@@ -270,7 +270,7 @@ const menu = [
 	name: "Grilled Liempo",
 	description: "",
 	price: 320,
-	image: "",
+	image: "./images/products/grilledliempo.png",
 	category: "Naps Best Sellers"
 },
 {
@@ -278,7 +278,7 @@ const menu = [
 	name: "Sinigang na Baboy",
 	description: "",
 	price: 360,
-	image: "",
+	image: "./images/products/sinigangnababoy.png",
 	category: "Naps Best Sellers"
 },
 {
@@ -366,10 +366,10 @@ const menu = [
 },
 {
 	id: 44,
-	name: "Pinakbet",
+	name: "Pinakbet / Pakbet",
 	description: "",
 	price: 255,
-	image: "",
+	image: "./images/products/pinakbet.png",
 	category: "Vegetable Dishes"
 },
 {
@@ -386,7 +386,7 @@ const menu = [
 	name: "Mango Duo Shake",
 	description: "",
 	price: 99,
-	image: "",
+	image: "./images/products/mangoduoshake.png",
 	category: "Fruit Shakes"
 },
 {
@@ -394,7 +394,7 @@ const menu = [
 	name: "Ripe Mango Shake",
 	description: "",
 	price: 99,
-	image: "",
+	image: "./images/products/mangoshake.png",
 	category: "Fruit Shakes"
 },
 {
@@ -402,7 +402,15 @@ const menu = [
 	name: "Green Mango Shake",
 	description: "",
 	price: 99,
-	image: "",
+	image: "./images/products/greenmangoshake.png",
+	category: "Fruit Shakes"
+},
+{
+	id: 158,
+	name: "Macapuno Shake",
+	description: "",
+	price: 99,
+	image: "./images/products/macapunoshake.png",
 	category: "Fruit Shakes"
 },
 {
@@ -410,7 +418,7 @@ const menu = [
 	name: "Corn Shake",
 	description: "",
 	price: 99,
-	image: "",
+	image: "./images/products/cornshake.png",
 	category: "Fruit Shakes"
 },
 {
@@ -418,7 +426,7 @@ const menu = [
 	name: "Banana Shake",
 	description: "",
 	price: 99,
-	image: "",
+	image: "./images/products/bananashake.png",
 	category: "Fruit Shakes"
 },
 {
@@ -426,7 +434,7 @@ const menu = [
 	name: "Melon Shake",
 	description: "",
 	price: 99,
-	image: "",
+	image: "./images/products/melon2.png",
 	category: "Fruit Shakes"
 },
 {
@@ -434,7 +442,7 @@ const menu = [
 	name: "Cucumber Melon Shake",
 	description: "",
 	price: 99,
-	image: "",
+	image: "./images/products/cucumbermelonshake.png",
 	category: "Fruit Shakes"
 },
 {
@@ -442,7 +450,7 @@ const menu = [
 	name: "Buko Shake",
 	description: "",
 	price: 99,
-	image: "",
+	image: "./images/products/bukoshake.png",
 	category: "Fruit Shakes"
 },
 {
@@ -450,17 +458,17 @@ const menu = [
 	name: "Kamias Shake",
 	description: "",
 	price: 99,
-	image: "",
+	image: "./images/products/kamiashake.png",
 	category: "Fruit Shakes"
 },
-{
-	id: 55,
-	name: "Tamarind Shake",
-	description: "",
-	price: 99,
-	image: "",
-	category: "Fruit Shakes"
-},
+// {
+// 	id: 55,
+// 	name: "Tamarind Shake",
+// 	description: "",
+// 	price: 99,
+// 	image: "",
+// 	category: "Fruit Shakes"
+// },
 
 /* Beverages */
 
@@ -509,15 +517,15 @@ const menu = [
 	name: "Mango Juice",
 	description: "",
 	price: 85,
-	image: "",
+	image: "./images/products/mangojuice.png",
 	category: "Beverages"
 },
 {
 	id: 62,
-	name: "Four Season Juice",
+	name: "Four Seasons Juice",
 	description: "",
 	price: 85,
-	image: "",
+	image: "./images/products/fourseasons.png",
 	category: "Beverages"
 },
 {
@@ -940,7 +948,7 @@ const menu = [
 	name: "Clubhouse",
 	description: "",
 	price: 200,
-	image: "",
+	image: "./images/products/clubhouse.png",
 	category: "Sandwiches"
 },
 
@@ -1056,7 +1064,7 @@ const menu = [
 	name: "Ginataang Puso ng Saging",
 	description: "",
 	price: 205,
-	image: "",
+	image: "./images/products/ginataangpusongsaging.png",
 	category: "Naps Innovation - Main Dishes"
 },
 {
@@ -1168,7 +1176,7 @@ const menu = [
 	name: "Chicken Silog",
 	description: "",
 	price: 205,
-	image: "",
+	image: "./images/products/chicksilog2.png",
 	category: "Naps Breakfast"
 },
 {
@@ -1208,7 +1216,7 @@ const menu = [
 	name: "Cornsilog",
 	description: "",
 	price: 170,
-	image: "",
+	image: "./images/products/cornsilog.png",
 	category: "Naps Breakfast"
 },
 {
@@ -1326,6 +1334,7 @@ const menu = [
 	image: "",
 	category: "Naps Sarap Meals"
 }
+// last id 158
 
 
 ];
