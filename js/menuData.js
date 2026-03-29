@@ -854,7 +854,7 @@ const menu = [
 	name: "Pansit Short Order",
 	description: "",
 	price: 209,
-	image: "",
+	image: "./images/products/pansit.png",
 	category: "Pancits & Lomis"
 },
 {
