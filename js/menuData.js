@@ -109,15 +109,15 @@ const menu = [
 	name: "Pork Sisig",
 	description: "",
 	price: 320,
-	image: "./images/products/porksisig.png",
+	image: "./images/products/porksisig2.png",
 	category: "Seafoods & Sisigs"
 },
 {
 	id: 14,
-	name: "Sizzling Seafood",
+	name: "Sizzling Seafoods",
 	description: "",
 	price: 320,
-	image: "",
+	image: "./images/products/sizzlingseafoods.png",
 	category: "Seafoods & Sisigs"
 },
 {
@@ -141,7 +141,7 @@ const menu = [
 	name: "Sweet & Sour Fish Fillet",
 	description: "",
 	price: 350,
-	image: "",
+	image: "./images/products/fishfillet2.jpg",
 	category: "Seafoods & Sisigs"
 },
 {
@@ -157,7 +157,7 @@ const menu = [
 	name: "Adobong Pusit",
 	description: "",
 	price: 300,
-	image: "",
+	image: "./images/products/adobongpusit.png",
 	category: "Seafoods & Sisigs"
 },
 {
@@ -192,7 +192,7 @@ const menu = [
 	name: "Fried Chicken Half",
 	description: "",
 	price: 265,
-	image: "",
+	image: "./images/products/friedchickenhalf.png",
 	category: "Naps Specialties"
 },
 {
@@ -214,9 +214,9 @@ const menu = [
 {
 	id: 26,
 	name: "Crispy Ulo Half",
-	description: "",
+	description: "./images/products/crispyulo.png",
 	price: 999,
-	image: "",
+	image: "./images/products/crispyulo.png",
 	category: "Naps Specialties"
 },
 
@@ -235,7 +235,7 @@ const menu = [
 	name: "Nilagang Baka",
 	description: "",
 	price: 429,
-	image: "",
+	image: "./images/products/nilagangbaka.png",
 	category: "Naps Favorites"
 },
 {
@@ -358,10 +358,10 @@ const menu = [
 
 {
 	id: 43,
-	name: "Chopsuey",
+	name: "Chopsuey / Chop Suey",
 	description: "",
 	price: 255,
-	image: "",
+	image: "./images/products/chopsuey.png",
 	category: "Vegetable Dishes"
 },
 {
@@ -475,7 +475,7 @@ const menu = [
 {
 	id: 56,
 	name: "Bottled Water",
-	description: "",
+	description: "500 ML",
 	price: 40,
 	image: "https://thegridfoodmarket.com/cdn/shop/products/Water_8cd439b9-8e5b-4551-9b18-1eb4f712963c.jpg?v=1637819273",
 	category: "Beverages"
@@ -627,7 +627,7 @@ const menu = [
 	name: "Smirnoff",
 	description: "",
 	price: 99,
-	image: "https://ever.ph/cdn/shop/files/100000073311-Smirnoff-Mule-Vodka-330ml-200912_1113f951-dabb-4a61-8313-986437830bec.jpg?v=1772428659",
+	image: "https://boozeshop.ph/cdn/shop/files/smirnoffmule330ml.jpg?v=1739259432",
 	category: "Liquors"
 },
 {
@@ -699,7 +699,7 @@ const menu = [
 	name: "Emperador Light",
 	description: "",
 	price: 350,
-	image: "https://marilenminimart.com/cdn/shop/products/image_2021-03-31_031754.png?v=1617131882",
+	image: "https://www.cebooze.com/app/uploads/2021/07/Emperador-Light.png",
 	category: "Liquors"
 },
 {
@@ -827,7 +827,7 @@ const menu = [
 	name: "Inihaw na Blue Marlin / Tuna / Tanigue",
 	description: "",
 	price: 300,
-	image: "",
+	image: "./images/products/InihawFish.png",
 	category: "Naps Best Pulutans"
 },
 
@@ -844,9 +844,9 @@ const menu = [
 {
 	id: 100,
 	name: "Chami",
-	description: "",
+	description: "Pansit Chami",
 	price: 210,
-	image: "",
+	image: "./images/products/pansitchami.png",
 	category: "Pancits & Lomis"
 },
 {
@@ -994,7 +994,7 @@ const menu = [
 	name: "Lumpiang Tinapa",
 	description: "",
 	price: 185,
-	image: "",
+	image: "./images/products/lumpiangtinapa.png",
 	category: "Naps Innovation - Appetizers"
 },
 {
@@ -1056,7 +1056,7 @@ const menu = [
 	name: "Kinilaw Sisig",
 	description: "",
 	price: 320,
-	image: "./images/products/kinilawsisig.png",
+	image: "./images/products/kinilawsisig2.png",
 	category: "Naps Innovation - Main Dishes"
 },
 {
@@ -1072,7 +1072,7 @@ const menu = [
 	name: "Chicken Dinakdakan",
 	description: "",
 	price: 305,
-	image: "./images/products/chickendinakdakan.png",
+	image: "./images/products/chickendinakdakan2.png",
 	category: "Naps Innovation - Main Dishes"
 },
 {
@@ -1080,7 +1080,7 @@ const menu = [
 	name: "Honey Garlic Chicken",
 	description: "",
 	price: 305,
-	image: "./images/products/honeygarlicchicken.jpg",
+	image: "./images/products/honeygarlic2.png",
 	category: "Naps Innovation - Main Dishes"
 },
 {
@@ -1096,7 +1096,7 @@ const menu = [
 	name: "Crispy Tilapia w/ Special Sauces",
 	description: "",
 	price: 495,
-	image: "",
+	image: "./images/products/crispytilapiawspecialsauces.png",
 	category: "Naps Innovation - Main Dishes"
 },
 {
@@ -1104,7 +1104,7 @@ const menu = [
 	name: "Pinaputok na Bangus",
 	description: "",
 	price: 445,
-	image: "",
+	image: "./images/products/pinaputoknabangus.png",
 	category: "Naps Innovation - Main Dishes"
 },
 
